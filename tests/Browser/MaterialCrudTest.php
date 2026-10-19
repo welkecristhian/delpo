@@ -79,6 +79,7 @@ class MaterialCrudTest extends DuskTestCase
      
 
                  // Material Delete
+                 
                  ->visit('/')
                  ->pause(1000)
                  ->waitForText('Sagarana')
